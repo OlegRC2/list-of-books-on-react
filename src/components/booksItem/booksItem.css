@@ -1,0 +1,13 @@
+.book {
+    color: #26a69a;
+}
+
+.close {
+    color: #ef5350;
+    cursor: pointer;
+}
+
+.edit {
+    color: #90a4ae;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.edit-book {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e8f5e9;
+}
+
+.edit-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.edit-content {
+    padding: 24px 24px 0 24px !important;
+}
+
+.edit-card-action {
+    border-top: 1px solid rgb(97, 96, 96, 0.4) !important;
+}
+
+.edit-btn  {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
