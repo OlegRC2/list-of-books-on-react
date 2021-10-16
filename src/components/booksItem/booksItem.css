@@ -5,9 +5,46 @@
 .close {
     color: #ef5350;
     cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .edit {
     color: #90a4ae;
     cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+.input-file-wrapper {
+    display: inline;
+}
+
+.card-image {
+    width: 145px;
+    height: 205px;
+}
+
+.books-img {
+    width: 145px;
+    height: 205px;
+}
+
+.card-book {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-size: 15px;
+    text-align: center;
+}
+
+.book-autor {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }

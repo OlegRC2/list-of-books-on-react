@@ -1,12 +1,19 @@
 function Footer() {
-    return <footer className="page-footer green lighten-3">
-                <div className="footer-copyright">
-                    <div className="container">
-                        © {new Date().getFullYear()} Copyright Text
-                        <a className="grey-text text-lighten-4 right" href="https://github.com/OlegRC2/list-of-books-on-react">Repo</a>
-                    </div>
+    return (
+        <footer className="page-footer green lighten-3">
+            <div className="footer-copyright">
+                <div className="container">
+                    © {new Date().getFullYear()} Copyright Text
+                    <a
+                        className="grey-text text-lighten-4 right"
+                        href="https://github.com/OlegRC2/list-of-books-on-react"
+                    >
+                        Repo
+                    </a>
                 </div>
-            </footer>
+            </div>
+        </footer>
+    );
 }
 
-export {Footer}
+export { Footer };
